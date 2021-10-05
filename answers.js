@@ -12,4 +12,4 @@ export const answers = [
     `I dunno dawg. this is so much pressure. magic 8 balls don't get paid, make your own decision `,
     `pffff you already know`,
     `does the pope shit in the woods?`
-]
+];
