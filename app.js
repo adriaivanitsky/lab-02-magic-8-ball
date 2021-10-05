@@ -1,5 +1,6 @@
 // import functions and grab DOM elements
 import { answers } from './answers.js';
+import { exampleQuestions } from './questions.js';
 
 const exampleQuestion = document.getElementById('example-question');
 const button = document.getElementById('button');
@@ -12,7 +13,10 @@ const getRandomNumber = (max)=>{
 // set event listeners 
 button.addEventListener('click', ()=>{
   const randomAnswer = getRandomNumber(answers.length);
-  console.log(answers[randomAnswer]); //get the value of the answer
+  const randomQuestion = getRandomNumber(exampleQuestions.length);
+ answer.textContent = answers[randomAnswer];
+ exampleQuestion.placeholder = exampleQuestions[randomQuestion];
+
 });
   // get user input
   // use user input to update state 
