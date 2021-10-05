@@ -5,5 +5,4 @@ export const exampleQuestions = [
     `would i make it on survivor?`,
     `am i gonna die alone?`,
     `am i gonna get laid on my birthday?`
-    ``
-]
+];
