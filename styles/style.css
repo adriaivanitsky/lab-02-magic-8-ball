@@ -29,12 +29,13 @@ body {
 }
 
 #triangle {
-    height: 50;
-    width: 70;
-    margin: 120px;
-    border-color: #007bff;
-    border: 0 100px 200px 100px;
-    z-index: top;
+    height: 0;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    margin: 100px;
+    
 
 
 
@@ -46,9 +47,10 @@ body {
 }
 
 #answer {
-    background-color: mediumblue;
-    color: white;
+    
+color: white;
     font-family: helvetica;
     text-transform: uppercase;
+    padding: 20px;
 
 }
