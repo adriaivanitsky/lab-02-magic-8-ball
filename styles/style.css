@@ -17,16 +17,28 @@ body {
 #eightball {
     border-radius: 50%;
     background-color: black;
+    height: 300px;
+    width: 300px;
     display: block;
     align-items: center;
     justify-content: center;
     margin: 50px;
-    width: 0;
-    height: 0;
     border-style: solid;
-    border-width: 0 100px 200px 100px;
-    border-color: transparent transparent #007bff transparent;
+    /* border-color: transparent transparent #007bff transparent; */
 
+}
+
+#triangle {
+    height: 50;
+    width: 70;
+    margin: 120px;
+    border-color: #007bff;
+    border: 0 100px 200px 100px;
+    z-index: top;
+
+
+
+    
 }
 
 #example-question {
