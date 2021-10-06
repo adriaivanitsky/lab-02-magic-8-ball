@@ -6,23 +6,23 @@ main {
     align-items: center;
     margin-bottom: calc(var(--footer-height));
     font-family: 'Rampart One', cursive;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 21%, rgba(2,0,36,1) 72%, rgba(9,9,121,1) 100%);
 }
 
 
 #eightball {
     border-radius: 50%;
     background-color: black;
-    
     display: block;
     align-items: center;
     justify-content: center;
     margin: 50px;
-
     width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 100px 200px 100px;
-border-color: transparent transparent #007bff transparent;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 200px 100px;
+    border-color: transparent transparent #007bff transparent;
 
 }
 
