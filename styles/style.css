@@ -6,10 +6,13 @@ main {
     align-items: center;
     margin-bottom: calc(var(--footer-height));
     font-family: 'Rampart One', cursive;
+    
+}
+
+body {
     background: rgb(0,212,255);
     background: radial-gradient(circle, rgba(0,212,255,1) 21%, rgba(2,0,36,1) 72%, rgba(9,9,121,1) 100%);
 }
-
 
 #eightball {
     border-radius: 50%;
