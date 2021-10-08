@@ -15,15 +15,26 @@ button.addEventListener('click', () => {
     const randomAnswer = getRandomNumber(answers.length);
     const randomQuestion = getRandomNumber(exampleQuestions.length);
 
-    answer.textContent = answers[randomAnswer];
-    exampleQuestion.placeholder = exampleQuestions[randomQuestion];
+    // Apply fade in 
+    //  --- using fade-in as a class on answer and triangle
 
-    if(randomAnswer === 4 || randomAnswer === 10){
-        answer.style.fontSize = '0.7rem';
-        answer.style.marginTop = '50px';
-    } else {
-        answer.style.fontSize = '0.9rem';
-        answer.style.marginTop = '100px';
-    }
+    answer.classList.remove('fade-in');
+    triangle.classList.remove('fade-in');
+
+    setTimeout(() => {
+        answer.classList.add('fade-in')
+        triangle.classList.add('fade-in')
+
+        answer.textContent = answers[randomAnswer];
+        exampleQuestion.placeholder = exampleQuestions[randomQuestion];
+    
+        if(randomAnswer === 4 || randomAnswer === 10){
+            answer.style.fontSize = '0.7rem';
+            answer.style.marginTop = '50px';
+        } else {
+            answer.style.fontSize = '0.9rem';
+            answer.style.marginTop = '100px';
+        }
+    }, 10);
 });
 
