@@ -2,7 +2,6 @@ h1 {
     color: white;
 }
 
-
 main {
     display: flex;
     flex-direction: column;
@@ -10,7 +9,6 @@ main {
     align-items: center;
     margin-bottom: calc(var(--footer-height));
     font-family: 'Rampart One', cursive;
-    
 }
 
 body {
@@ -29,7 +27,6 @@ body {
     margin: 50px;
     border-style: solid;
     /* border-color: transparent transparent #007bff transparent; */
-
 }
 
 #inner-circle {
@@ -64,5 +61,16 @@ body {
 
 #example-question {
     margin: 20px;
+}
+
+@keyframes FadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in {
+    animation-name: FadeIn;
+    animation-duration: 1s;
+    transition-timing-function: linear;
 }
 

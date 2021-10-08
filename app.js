@@ -15,9 +15,6 @@ button.addEventListener('click', () => {
     const randomAnswer = getRandomNumber(answers.length);
     const randomQuestion = getRandomNumber(exampleQuestions.length);
 
-    // if 4 in the array, then font-size = 0.7rem;
-    // else 
-
     answer.textContent = answers[randomAnswer];
     exampleQuestion.placeholder = exampleQuestions[randomQuestion];
 
@@ -30,4 +27,3 @@ button.addEventListener('click', () => {
     }
 });
 
-  // answers 4 and 10 are too large! Let's adjust font-size to 0.7rem
