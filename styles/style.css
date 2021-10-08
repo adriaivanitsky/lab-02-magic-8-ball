@@ -21,8 +21,8 @@ body {
 #eightball {
     border-radius: 50%;
     background-color: black;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     display: block;
     align-items: center;
     justify-content: center;
@@ -35,19 +35,15 @@ body {
 #triangle {
     height: 0;
     width: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid blue;
-    margin: 100px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid blue;
+    margin: 130px 150px 150px 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
-
-
-
-    
 }
 
 #example-question {
@@ -55,12 +51,9 @@ body {
 }
 
 #answer {
-    
-color: white;
+    color: white;
     font-family: helvetica;
     text-transform: uppercase;
-    padding-top: 100px;
+    margin-top: 100px;
     font-size: smaller;
-
-
 }
